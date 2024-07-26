@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* Shared Style */
-/* body{
-    background-color:black;
-} */
+body{
+    background-color:rgb(36, 34, 34);
+}
 .display-flex{
     display: flex;
 }
@@ -23,9 +23,9 @@
     font-size: 18px;
     }
     .description-font{
-        /* color: rgba(255, 255, 255, 0.5); */
+        color: rgba(255, 255, 255, 0.5);
         font-family: Inter;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 400;
     }
 
@@ -40,14 +40,14 @@
     list-style-type: none;
 }
 nav{
-    background-color: rgb(43, 32, 32);
+    background-color: rgb(36, 34, 34);;
     margin-top: 50px;
     justify-content: space-around;
     align-items: center;
 }
 .nav-title{
         color: rgb(230, 83, 60);
-        font-size: 36px;
+        font-size: 2.2rem;
         font-weight: 800;
     }
     .all-button{
@@ -69,13 +69,13 @@ nav{
         margin: 0 14px;
     }
     .get-body-title{
-        font-size: 78px;
+        font-size: 4.8rem;
         font-weight: 900;
-        /* color: rgb(255, 255, 255); */
+        color: rgb(255, 255, 255);
     }
     .get-body-info{
-        background-color: aquamarine;
-        margin-left: 190px;
+        color: rgb(255, 255, 255);
+        margin-left: 100px;
         width: 32.5rem;
         height: 27.5rem;
     }
@@ -88,8 +88,68 @@ nav{
     }
     .get-body-images{
         margin-left: 190px;
-        background-color: brown;
+       
     }
+    #circle{
+        width: 30px;
+        height: 30px;
+        background-color:rgb(230, 83, 60);
+        border-radius: 50%;
+        
+    }
+
+    
+    
+    .img-card-1{
+        width: 193px;
+        height: 98px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: -400px;
+        margin-left: 230px;
+        padding: 17px 50px 17px 24px;
+    }
+    .img-card-title{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin: 0;
+    }
+    .img-card-description{
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .img-card-title-2{
+        color: rgb(250, 250, 249);
+        font-family: Inter;
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin: 0;
+    }
+    .img-card-2{
+        width: 193px;
+        height: 98px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        margin-top:150px;
+        margin-bottom: 50px;
+        margin-left: -50px;
+        padding: 17px 50px 17px 24px;
+        gap: 10px;
+        align-items: center;
+       
+    }
+
 
 
     /* Navbar Responsive */
@@ -97,6 +157,13 @@ nav{
         .all-button{
             display: none;
             
+        }
+        .get-body-container{
+            flex-direction: column;
+            /* text-align: left;   */
+        }
+        .get-body-info{
+            text-align: left;
         }
         
     }
