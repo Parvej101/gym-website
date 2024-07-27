@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* Shared Style */
+.border{
+    border: 1px solid red;
+}
 body{
     background-color:rgb(36, 34, 34);
+    
 }
 .display-flex{
     display: flex;
@@ -10,8 +14,7 @@ body{
 .primary-font{
     font-family: Inter;
     color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 .primary-btn{
@@ -20,15 +23,18 @@ body{
     border: none;
     padding: 10px 20px;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 1.1rem;
     }
     .description-font{
         color: rgba(255, 255, 255, 0.5);
         font-family: Inter;
         font-size: 1rem;
         font-weight: 400;
+        margin: 0;
     }
-
+.margin-0{
+    margin: 0;
+}
 
 
 /* Navbar style */
@@ -60,110 +66,68 @@ nav{
         padding: 0;
     }
 
-    /* Get Body Section */
-    .get-body-container{
-        margin-top: 90px;
-    }
-    .download-btn{
-        background-color:black;
-        margin: 0 14px;
-    }
-    .get-body-title{
-        font-size: 4.8rem;
-        font-weight: 900;
-        color: rgb(255, 255, 255);
-    }
-    .get-body-info{
-        color: rgb(255, 255, 255);
-        margin-left: 100px;
-        width: 32.5rem;
-        height: 27.5rem;
-    }
-    .get-body-info h1{
-        margin: 0;
-    }
-    .get-body-btn{
-        margin-top: 28px;
-        
-    }
-    .get-body-images{
-        margin-left: 190px;
-       
-    }
-    #circle{
-        width: 30px;
-        height: 30px;
-        background-color:rgb(230, 83, 60);
-        border-radius: 50%;
-        
-    }
+   .bar{
+    font-size: 2rem;
+    display: none;
+   }
 
-    
-    
-    .img-card-1{
-        width: 193px;
-        height: 98px;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.1);
-        margin-top: -400px;
-        margin-left: 230px;
-        padding: 17px 50px 17px 24px;
-    }
-    .img-card-title{
+   /* Get body section start */
+   .get-body-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .get-body-details{
+    max-width: 45%;
+   }
+   .get-body-image{
+    max-width: 45%;
+    position: relative;
+   }
+   .get-body-img img{
+    width: 100%;
+   }
+   .get-body-title{
         color: rgb(255, 255, 255);
         font-family: Inter;
-        font-size: 2.5rem;
+        font-size:4.5rem;
         font-weight: 900;
         margin: 0;
-    }
-    .img-card-description{
-        color: rgba(255, 255, 255, 0.65);
-        font-size: 0.8rem;
-        font-weight: 400;
-        margin: 0;
-    }
-
-    .img-card-title-2{
-        color: rgb(250, 250, 249);
-        font-family: Inter;
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin: 0;
-    }
-    .img-card-2{
-        width: 193px;
-        height: 98px;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        backdrop-filter: blur(20px);
-        background: rgba(48, 48, 48, 0.54);
-        margin-top:150px;
-        margin-bottom: 50px;
-        margin-left: -50px;
-        padding: 17px 50px 17px 24px;
-        gap: 10px;
-        align-items: center;
-       
-    }
-
-
-
-    /* Navbar Responsive */
-    @media screen and (max-width: 576px) {
-        .all-button{
-            display: none;
-            
-        }
-        .get-body-container{
-            flex-direction: column;
-            /* text-align: left;   */
-        }
-        .get-body-info{
-            text-align: left;
-        }
-        
-    }
+   }
+   .card{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    width: 12rem;
+    
+   }
+   .card-1{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+   }
+   .card-2{
+    position: absolute;
+    top: 70%;
+    left: -30%;
+   }
+   .card-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+   }
+   .get-body-btn{
+    margin-top: 20px;
+   }
+   .button-2{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+   }

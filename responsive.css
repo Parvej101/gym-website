@@ -1,0 +1,24 @@
+@media screen and (max-width: 556px) {
+    .bar{
+        display: block;
+    }
+    .nav-button{
+        display: none;
+    }
+    .get-body-section{
+        flex-direction: column;
+        
+    .get-body-details{
+        max-width: 100%;
+        /* margin-left: 20px; */
+    }
+    .get-body-title{
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+    }
+    .get-body-image{
+        align-items: center;
+        margin-right: 60px;
+    }
+    
+}
