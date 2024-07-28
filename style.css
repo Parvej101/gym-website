@@ -126,6 +126,8 @@ nav{
     position: absolute;
     top: 70%;
     left: -30%;
+    gap: 10px;
+    align-items: center;
    }
    .card-title{
     color: rgb(255, 255, 255);
@@ -142,12 +144,19 @@ nav{
     background-color: transparent;
     border: 1px solid white;
    }
+   #circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:rgb(230, 83, 60);
+    
+   
+   }
 
    /* Change your habit start */
   .habit-container{
-    margin-top: 100px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 100px auto;
   }
    .habit-info{
     width: 50%;
@@ -190,3 +199,31 @@ nav{
    .habit-img-description{
     text-align: center;
    }
+/* Run section start */
+
+.run-title{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size:3rem;
+    font-weight: 900;
+    
+    }
+    .run-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20%;
+        padding: 30px;
+        border-radius: 18px;
+        background-color: rgba(63, 60, 60, 0.445);
+    }
+    .run-img{
+        width: 100%;
+        border-radius: 18px;
+    }
+    .run-button{
+        margin-top: 30px;
+       padding: 10px 80px
+       
+    }
