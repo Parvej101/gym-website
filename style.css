@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
+
 /* Shared Style */
 .border{
     border: 1px solid red;
@@ -79,6 +83,13 @@ nav{
     align-items: center;
     justify-content: space-between;
    }
+   .shape{
+    font-family: Miama;
+    font-size: 4.8rem;
+    font-weight: 900;
+   
+
+   }
    .get-body-details{
     max-width: 45%;
    }
@@ -130,4 +141,52 @@ nav{
     margin-left: 10px;
     background-color: transparent;
     border: 1px solid white;
+   }
+
+   /* Change your habit start */
+  .habit-container{
+    margin-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+   .habit-info{
+    width: 50%;
+    margin: 0 auto;
+   }
+   .habit-title{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+   }
+   .habit-description{
+   text-align: center;
+   margin-top: 14px;
+   }
+
+   .habit-img-title{
+    font-size: 1.5rem;
+    color:  rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+   }
+   .habit-card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+  
+   }
+   .habit-card img{
+    border-radius: 50%;
+   }
+   .img-card{
+    margin: 0px 20px;
+   }
+   .img-card img{
+    margin-left: 38px;
+    margin-bottom: 20px;
+   }
+   .habit-img-description{
+    text-align: center;
    }
