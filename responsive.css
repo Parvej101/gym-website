@@ -42,12 +42,24 @@
     .run-container{
         grid-template-columns: 1fr;
         gap: 10px;
+        
     }
     .run-button{
        margin-left: 20%;
        margin-bottom: 30px;
     }
-
+    .bmi-section{
+        flex-direction: column;
+    }
+    .bmi-input{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 90%;
+   }
+   .calculate-bmi{
+    width: 100%;
+   }
 
        }
 

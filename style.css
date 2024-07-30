@@ -224,6 +224,68 @@ nav{
     }
     .run-button{
         margin-top: 30px;
-       padding: 10px 80px
+       padding: 10px 80px;
        
     }
+
+    /* BMI Calculator section start */
+    table,td,th {
+        padding: 10px 30px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-collapse: collapse;
+        text-align: left;
+    }
+    th{
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+    }
+    td{
+        font-size: 0.8;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .bmi-title{
+        font-size: 1.8rem;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        padding-left: 20px;
+    }
+    .bmi-section{
+        justify-content: space-around;
+        background-color: rgba(63, 60, 60, 0.445);
+        margin-top: 100px;
+    }
+   .calculate-bmi{
+    width: 50%;
+   }
+
+   .bmi-info{
+    margin-bottom: 35px;
+   }
+   .bmi-info h3{
+    margin-bottom: 14px;
+    padding: 0;
+    
+   }
+   .bmi-input{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+   }
+   .bmi-input input,
+   .bmi-input select {
+       padding: 12px 0px 12px 12px;
+       margin:  0 5px 5px 0;
+       border: none;
+       border-radius:8px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color:rgba(255, 255, 255, 0.5);
+   }
+   
+   .activity-factor{
+    grid-column: span 2;
+   }
+   .bmi-button{
+    margin-top: 20px;
+    padding: 10px 40px;
+   }
+   
