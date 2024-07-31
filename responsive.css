@@ -87,6 +87,17 @@
     height: 270px;
     border-radius: 18px;
     }
+    /* Fitness section start*/
+    .fitness-container{
+        flex-direction: column;
+    }
+    .fitness-info{
+        max-width: 100%;
+        padding: 0;
+    }
+    .get-start{
+        padding: 0;
+    }
 
        }
 

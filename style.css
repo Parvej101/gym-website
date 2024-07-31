@@ -329,7 +329,6 @@ nav{
    .meet-image{
     margin: 0 auto;
     object-fit: cover;
-    border: 1px solid green;
     position: relative;
    }
    .meet-images-container{
@@ -360,3 +359,66 @@ nav{
     top: 80%;
     left: 5%;
    }
+
+   /* Fitness section start */
+   .fitness-section{
+    max-width:100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+   }
+   .fitness-container{
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 90%;
+    
+    
+    
+   }
+   .fitness-info h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 20px 0;
+    
+   }
+   .fitness-info{
+    max-width: 40%;
+    padding: 20px;
+   }
+   .get-start h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+   }
+   .get-start ul{
+    list-style: none;
+    padding: 0;
+   }
+.get-start{
+    padding: 20px;
+}
+   .get-start ul>li{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 0;
+   }
+   .footer-line{
+    margin: 0 auto;
+    height: 0px;
+    width: 90%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+   }
+   .footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+   }
+   
