@@ -13,10 +13,20 @@
     .get-body-title{
         font-size: 2.6rem;
         margin-bottom: 20px; }
-    .get-body-image{
-        align-items: center;
-        margin-right: 60px;
+     .get-body-image{
+        margin-left: -50px;
+        width: 100%;
+       
     }
+     .get-body-image img{
+        margin-left: -50px;
+       
+     }
+     .card-1, .card-2{
+        width: 200px;
+        height: 100px;
+     }
+    
     /* Change your habit start */
    .habit-container{
     max-width: 90%;
@@ -54,11 +64,17 @@
     .bmi-input{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-        width: 90%;
+        width: 100%;
+        gap: 0;
+   }
+   .bmi-input input {
+    width: 90%;
    }
    .calculate-bmi{
     width: 100%;
+   }
+   .calculate-bmi{
+    margin-top: 50px;
    }
 
        }
