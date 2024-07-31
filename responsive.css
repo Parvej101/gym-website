@@ -76,6 +76,17 @@
    .calculate-bmi{
     margin-top: 50px;
    }
+   /* Calculator section end */
+
+   /* Meet our team section start */
+   .meet-images-container{
+    grid-template-columns: 1fr;
+   }
+   .meet-image img{
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    }
 
        }
 
