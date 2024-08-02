@@ -55,8 +55,9 @@
         
     }
     .run-button{
-       margin-left: 20%;
+       margin-left: 10%;
        margin-bottom: 30px;
+       
     }
     .bmi-section{
         flex-direction: column;
@@ -98,9 +99,18 @@
     .get-start{
         padding: 0;
     }
+    /* Price section start */
+    .price-card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+         gap: 20px; 
+        margin: 0 10%;
 
+       }
+       .price-info ul{
+            margin-left: 20%;
        }
 
 
 
-
+    }
